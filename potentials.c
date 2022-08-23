@@ -36,7 +36,7 @@ int findIndex(star stars[N_STAR], double dist){
     i = index = 0;
 
     while (i < N_STAR){
-        if (stars[i].r <= dist <= stars[i+1].r)
+        if ((stars[i].r <= dist) && (dist <= stars[i+1].r))
             break;
         else
             index++;

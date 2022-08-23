@@ -1,0 +1,11 @@
+# object files
+*.o
+
+# executable
+MCsim
+
+# vim temporary files
+.*.swp
+
+# output file(s)
+init.txt
